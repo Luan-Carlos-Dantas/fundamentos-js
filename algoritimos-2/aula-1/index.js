@@ -25,14 +25,12 @@ function juntaListas(arr1,arr2){
     let itemAtualLista1 = arr1[posicaoAtualLista1]
     lista[atual] = itemAtualLista1
       posicaoAtualLista1++
-      atual++
   }
 
   while(posicaoAtualLista2 < arr2.length){
     let itemAtualLista2 = arr2[posicaoAtualLista2]
     lista[atual] = itemAtualLista2
     posicaoAtualLista2++
-    atual++
   }
 
   return lista
