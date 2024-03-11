@@ -1,8 +1,8 @@
 import User from "./User.js";
 
 export default class Docentes extends User{
-  constructor(nome, email, nascimento, role='docente', ativo=true){
-    super(nome,email,nascimento)
+  constructor(nome,sobrenome, email, nascimento, role='docente', ativo=true){
+    super(nome,sobrenome,email,nascimento)
   }
 
   aprovaEstudante(estudante,nota,curso){
